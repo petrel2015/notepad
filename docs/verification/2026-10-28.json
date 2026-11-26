@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-28",
+  "status": "local initial implementation; unreleased",
+  "source_sha256": {
+    "package-lock.json": "a37c8c92fc6caf5c90fb8f1c3e7aa57b861ff1aa3f129c9b55404b7a9a88ce5d",
+    "src/editor.ts": "c791c4a38b946f2773d02c71699ca48cd8548fa6b6e29455f8e40405df0c89c0",
+    "src/large-core.ts": "728eeace6d15f6f61d56b492e8b186983c9a6ac262d8d8330a53923aea8ad3be",
+    "src/large.worker.ts": "47e3a00db1b9742349525bb47c0d0b429fd0b714321a0fd9dd8c78f0b6717ff3",
+    "src/main.ts": "747b77f2b187a935f31e09826306c967bf94d80edcc118c1e074804939269670",
+    "src/search-core.ts": "9bfafa1766862d657353e1d0c98959626ad154ec34914bf271255516f00c9873",
+    "src/search.worker.ts": "2fb1922d772e09c81f30568bf49373d438f6d87d5da5affc373dd41644f3d090",
+    "src/style.css": "42655588c37d8894533f0aa0dee231d2d0fedb3bf7d6c86f45452d8e92811425",
+    "src/text.ts": "efbb2d04d06e669b5af24fbe0cc93caeea8fd6530360e0e1e4fc02c290deccad",
+    "src/themes/dark.json": "f59e85d4f6d244d4e4e8baecbcdee069f0fd573d24277dc90328fc047e04d09e",
+    "src/themes/light.json": "d514643554385663ca4a8ca1a7f534ae749016e28f92ea49230c41bdacbb7098",
+    "src/themes.ts": "04a59b9bf806a2ec5f3895391d6e11b0404b065964f31be06aac73d79dee050d"
+  },
+  "unit_tests": {
+    "passed": 16,
+    "opt_in_disk_test_default": "skipped"
+  },
+  "disk_acceptance": {
+    "inputBytes": 104857638,
+    "matches": 1978446,
+    "outputBytes": 100900746,
+    "sha256": "b5d9ad67e78f39ab15e194b26409964c042cfbbf9fa3914fe41839003d8d8132",
+    "elapsedMs": 610,
+    "maxWriteBytes": 85758,
+    "node": "v22.22.3",
+    "platform": "darwin",
+    "kind": "Node disk-backed algorithm acceptance; not browser native-save verification"
+  },
+  "browser": {
+    "environment": "Codex in-app browser on macOS",
+    "100_mib_search": {
+      "input_bytes": 104857638,
+      "expected_matches": 1978446,
+      "actual_matches": 1978446,
+      "production_build_also_verified": true
+    },
+    "1_gib_search": {
+      "input_bytes": 1073741840,
+      "expected_matches": 20259280,
+      "actual_matches": 20259280
+    },
+    "cancel": true,
+    "regex_timeout": true,
+    "console_errors_on_checked_paths": 0,
+    "native_file_write_e2e": false,
+    "physical_ime_composition": "not tested",
+    "peak_memory": "not measured",
+    "cross_browser_matrix": "not tested"
+  },
+  "deployment": null
+}

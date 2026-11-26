@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Notepad · 文本工作台",
+  "version": "0.1.0",
+  "description": "本地文本编辑、查找替换、双文本对比、JSON 工具与大文件分块浏览。",
+  "minimum_chrome_version": "112",
+  "permissions": ["contextMenus", "storage"],
+  "action": { "default_title": "打开 Notepad 文本工作台" },
+  "background": { "service_worker": "background.js", "type": "module" },
+  "options_ui": { "page": "index.html", "open_in_tab": true },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; worker-src 'self'; connect-src 'none';"
+  },
+  "icons": {
+    "16": "icons/16.png",
+    "32": "icons/32.png",
+    "48": "icons/48.png",
+    "128": "icons/128.png"
+  }
+}

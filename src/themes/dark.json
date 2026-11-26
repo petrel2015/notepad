@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "dark",
+  "name": "深夜",
+  "base": "dark",
+  "colors": {
+    "ui.background": "#15171c",
+    "ui.foreground": "#dce2ec",
+    "ui.panel": "#1c1f26",
+    "ui.border": "#343945",
+    "ui.muted": "#909bad",
+    "ui.accent": "#7ca5ff",
+    "ui.accentText": "#10151f",
+    "editor.background": "#1c1f26",
+    "editor.foreground": "#dce2ec",
+    "editor.lineNumber": "#788499",
+    "editor.cursor": "#a9c3ff",
+    "editor.currentLine": "#242a35",
+    "editor.selection": "#344e78",
+    "editor.search": "#715a26",
+    "editor.whitespace": "#5c6678",
+    "syntax.keyword": "#c4a1ff",
+    "syntax.string": "#8bd4ac",
+    "syntax.number": "#edb67f",
+    "syntax.comment": "#7f8b9e",
+    "diff.addedBackground": "#203f31",
+    "diff.deletedBackground": "#492c34",
+    "diff.modifiedBackground": "#4c432c"
+  }
+}

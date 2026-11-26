@@ -1,0 +1,30 @@
+{
+  "version": 1,
+  "id": "light",
+  "name": "白昼",
+  "base": "light",
+  "colors": {
+    "ui.background": "#f6f7f9",
+    "ui.foreground": "#253046",
+    "ui.panel": "#ffffff",
+    "ui.border": "#dfe3eb",
+    "ui.muted": "#6c778a",
+    "ui.accent": "#2563eb",
+    "ui.accentText": "#ffffff",
+    "editor.background": "#ffffff",
+    "editor.foreground": "#243044",
+    "editor.lineNumber": "#9aa4b5",
+    "editor.cursor": "#2563eb",
+    "editor.currentLine": "#f5f8ff",
+    "editor.selection": "#cbdfff",
+    "editor.search": "#ffe4a0",
+    "editor.whitespace": "#abb5c6",
+    "syntax.keyword": "#7c3aed",
+    "syntax.string": "#16815d",
+    "syntax.number": "#b75a15",
+    "syntax.comment": "#8490a3",
+    "diff.addedBackground": "#dcfce7",
+    "diff.deletedBackground": "#fee2e2",
+    "diff.modifiedBackground": "#fef3c7"
+  }
+}
