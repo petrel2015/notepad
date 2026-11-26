@@ -11,3 +11,5 @@ Reproduce with `npm ci`, `npm test`, and `npm run build`. Verify the live HTML, 
 GitHub assigns the default subdomain to the account: petrel2015.github.io, with notepad as the project path. A custom notepad.example.com requires ownership of example.com, a DNS CNAME to petrel2015.github.io, and Pages custom-domain/HTTPS configuration.
 
 [简体中文](../zh/deployment.md)
+
+2026-11-26 acceptance: GitHub Actions run 45732448285 succeeded; HTTPS returned 200; browser normal search found 5 matches, and the 100 MiB fixture returned 1,978,446 token-needle matches. Native save was not tested in this deployment acceptance.

@@ -11,3 +11,5 @@ GitHub Pages 通过 `.github/workflows/pages.yml` 发布。推送 main 后依次
 GitHub 默认三级域名属于账号，因此这里是 petrel2015.github.io，notepad 是项目路径。要使用 notepad.example.com，需拥有 example.com 并配置 DNS CNAME 指向 petrel2015.github.io，再在 Pages 配置完整域名及 HTTPS。不要把 CNAME 指向 /notepad/ 路径。
 
 [English](../en/deployment.md)
+
+2026-11-26 发布验收：GitHub Actions run 45732448285 成功；HTTPS 主页返回 200；真实浏览器普通查找匹配 5 处，100 MiB 样本搜索 token-needle 匹配 1,978,446 处。原生另存未在本次验收中验证。

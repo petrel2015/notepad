@@ -6,7 +6,9 @@ English | [简体中文](README.zh.md)
 
 A browser-local text workbench for editing, search/replacement, comparison, JSON tools and portable themes.
 
-**Status: runnable local initial implementation, unreleased.** See [current implementation and acceptance](docs/en/implementation.md) for actual capabilities/evidence; design docs retain the full target.
+**Status: initial implementation published on GitHub Pages.** See [current implementation and acceptance](docs/en/implementation.md) for actual capabilities/evidence; design docs retain the full target.
+
+Online: [Notepad](https://petrel2015.github.io/notepad/) · [Deployment](https://github.com/petrel2015/notepad/actions).
 
 ## Run
 
